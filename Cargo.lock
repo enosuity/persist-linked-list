@@ -3,5 +3,17 @@
 version = 3
 
 [[package]]
-name = "persist-link-list"
+name = "binary-tree"
+version = "0.1.0"
+
+[[package]]
+name = "dsa-using-smart-pointers"
+version = "0.1.0"
+dependencies = [
+ "binary-tree",
+ "persist-link",
+]
+
+[[package]]
+name = "persist-link"
 version = "0.1.0"

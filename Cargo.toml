@@ -1,8 +1,13 @@
+workspace = { members = [ "binary-tree","persist-link"] }
+
 [package]
-name = "persist-link-list"
+name = "dsa-using-smart-pointers"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+persist-link = { path = "./persist-link", default = true }
+binary-tree = { path = "./binary-tree", default = true }
+
