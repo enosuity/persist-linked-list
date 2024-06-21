@@ -15,7 +15,7 @@ include = [
 homepage = "https://github.com/enosuity/persist-linked-list"
 description = "A binary tree visualization application built in Rust."
 repository = "https://github.com/enosuity/persist-linked-list"
-keywords = ["binary tree", "data structures", "trees", "algorithm", "visualization"]
+keywords = ["binary-tree", "data-structures", "trees", "algorithm", "visualization"]
 categories = ["algorithms", "data-structures", "utilities", "development-tools"]
 license = "MIT OR Apache-2.0"
 
