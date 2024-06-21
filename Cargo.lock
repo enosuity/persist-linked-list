@@ -3,17 +3,22 @@
 version = 3
 
 [[package]]
-name = "binary-tree"
-version = "0.1.0"
-
-[[package]]
 name = "binary-tree-view"
 version = "0.1.0"
 dependencies = [
- "binary-tree",
- "persist-link",
+ "simple-binary-tree 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
 name = "persist-link"
 version = "0.1.0"
+
+[[package]]
+name = "simple-binary-tree"
+version = "0.1.0"
+
+[[package]]
+name = "simple-binary-tree"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c074f8a7c46088d41fa52ec8c45137fe72db71f1a9016a4aa67f1a57b45f32a7"

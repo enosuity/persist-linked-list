@@ -1,5 +1,7 @@
 workspace = { members = [ "binary-tree","persist-link"] }
 
+# workspace = { members = [ "simple-binary-tree"] }
+
 [package]
 name = "binary-tree-view"
 version = "0.1.0"
@@ -11,22 +13,17 @@ include = [
   "LICENSE"
 ]
 homepage = "https://github.com/enosuity/persist-linked-list"
-description = "A simple binary tree view representation"
+description = "A binary tree visualization application built in Rust."
 repository = "https://github.com/enosuity/persist-linked-list"
-keywords = [
-  "binary",
-  "binary-tree", 
-  "tree",
-  "binary-tree-view",
-  "binary-tree-structure"
-]
-categories = ["binary-tree", "binary-tree-rust"]
-license = "MIT"
+keywords = ["binary tree", "data structures", "trees", "algorithm", "visualization"]
+categories = ["algorithms", "data-structures", "utilities", "development-tools"]
+license = "MIT OR Apache-2.0"
 
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-persist-link = { path = "./persist-link", default = true }
-binary-tree = { path = "./binary-tree", default = true }
+# persist-link = { path = "./persist-link", default = true }
+# binary-tree = { path = "./binary-tree", default = true }
+simple-binary-tree = "0.1.0"
 

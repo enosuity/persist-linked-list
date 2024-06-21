@@ -1,7 +1,7 @@
 #![allow(unused)]
 
 use std::{cell::RefCell, io::{self, BufRead}, rc::Rc};
-use binary_tree::run;
+use simple_binary_tree::run;
 
 
 fn main() {
@@ -20,6 +20,5 @@ fn main() {
 
     println!("\nBinary Tree View: \n");
         
-    run(&list)
-    
+    run(&list)    
 }
