@@ -6,15 +6,11 @@ version = 3
 name = "binary-tree-view"
 version = "0.1.0"
 dependencies = [
- "simple-binary-tree 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "simple-binary-tree",
 ]
 
 [[package]]
 name = "persist-link"
-version = "0.1.0"
-
-[[package]]
-name = "simple-binary-tree"
 version = "0.1.0"
 
 [[package]]
