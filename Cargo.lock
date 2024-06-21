@@ -7,7 +7,7 @@ name = "binary-tree"
 version = "0.1.0"
 
 [[package]]
-name = "dsa-using-smart-pointers"
+name = "binary-tree-view"
 version = "0.1.0"
 dependencies = [
  "binary-tree",

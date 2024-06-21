@@ -1,4 +1,4 @@
-// #![allow(unused)]
+#![allow(unused)]
 
 use std::{cell::RefCell, fmt::Display, rc::Rc};
 
@@ -94,16 +94,17 @@ where
     }
 }
 
-pub fn run() {
-    let tree = Tree::new(12);
-    tree.insert(5);
-    tree.insert(27);
-    tree.insert(17);
-    tree.insert(3);
-    tree.insert(11);
-    tree.insert(20);
-    tree.insert(45);
-    tree.insert(16);
+pub fn run(list: &Vec<i32>) {
+
+    let tree = Tree::new(list[0]);
+    for (index, &elem) in list.iter().enumerate() {
+        if index > 0 {
+            tree.insert(elem);        
+        }
+    }
+
     tree.print();
 }
+
+
 

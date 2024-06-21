@@ -1,7 +1,7 @@
 workspace = { members = [ "binary-tree","persist-link"] }
 
 [package]
-name = "dsa-using-smart-pointers"
+name = "binary-tree-view"
 version = "0.1.0"
 edition = "2021"
 
